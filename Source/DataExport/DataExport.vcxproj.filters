@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CsvFileManager.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CsvRow.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CsvSheet.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DataInfoBase.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DataExport.cpp" />
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Debug.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeDelete.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TFreeList.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Uncopyable.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CsvFileManager.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CsvRow.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CsvSheet.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DataInfoBase.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialization.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Util">
+      <UniqueIdentifier>{b1400c7f-c3ec-4368-bb8d-e2a32548bb6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem">
+      <UniqueIdentifier>{50fd8a49-662c-4dcc-94bc-7bbb1bba35c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{d914216a-5eb3-4630-b53d-30fc785d0b19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
